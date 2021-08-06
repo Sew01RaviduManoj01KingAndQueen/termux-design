@@ -679,5 +679,5 @@ rm -rf simple-edit
 cd
 cd /data/data/com.termux/files/usr/etc
 rm -rf motd
-
-figlet -f big BDh@Ckers | lolcat
+cd
+figlet -f big Ravindu | lolcat
