@@ -676,4 +676,8 @@ git clone https://github.com/BDhackers009/simple-edit
 sed 's+THBD+'$user'+g' simple-edit/bash.bashrc > /data/data/com.termux/files/usr/etc/bash.bashrc
 sed 's+THBD+'$user'+g' simple-edit/wlc.py > /data/data/com.termux/files/usr/etc/wlc.py
 rm -rf simple-edit
+cd
+cd /data/data/com.termux/files/usr/etc
+rm -rf motd
+
 figlet -f big BDh@Ckers | lolcat
