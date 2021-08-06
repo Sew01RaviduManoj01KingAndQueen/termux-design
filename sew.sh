@@ -36,4 +36,4 @@ git clone https://github.com/Sew01RaviduManoj01KingAndQueen/simple-git-termux
 sed 's+THBD+'$user'+g' simple-git-termux/bash.bashrc > /data/data/com.termux/files/usr/etc/bash.bashrc
 sed 's+THBD+'$user'+g' simple-git-termux/wlc.py > /data/data/com.termux/files/usr/etc/wlc.py
 rm -rf simple-git-termux
-figlet -f big BDh@Ckers | lolcat
+figlet -f big Ravindu | lolcat
